@@ -155,30 +155,6 @@ $(".subscribeHolder form").validate();
 //---------------------------------- End newsletter form validation-----------------------------------------//
 
 //---------------------------------- End gallery slider-----------------------------------------//
-
-
-
-
-//--------------------------------- Accordion --------------------------------//	
-
-		$( "#tabs" ).tabs();
-		$( "#accordion" ).accordion();
-		var selectedEffect = $( "#effectTypes" ).val();
-		var link = $("#button")
-		var options = {};
-
-			if ( selectedEffect === "slide" ) {
-				options = { percent: 0 };
-			} else if ( selectedEffect === "size" ) {
-				options = { to: { width: 200, height: 60 } };
-			}
-
-			$( "#effect" ).toggle( selectedEffect, options, 500 );
-			
-//--------------------------------- End accordion --------------------------------//
-
-
-
 });
 
 
